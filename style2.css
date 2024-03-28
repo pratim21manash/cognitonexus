@@ -1,0 +1,442 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    background-color: rgb(216, 208, 208);
+    height: auto;
+    width: auto;
+    width: 100vw;
+    margin: auto;
+}
+
+.first{
+    width: 85%;
+    margin: auto;
+    object-fit: cover;
+    margin-top: 15px;
+    border-radius: 15px;
+    opacity: 1px;
+    position: relative;
+   
+}
+.first img{
+    border-radius: 15px;
+    height: auto;
+    width: 100%;
+   opacity: 1px;
+}
+/* .image{
+    position: relative;
+} */
+.text{
+    position: absolute;
+    top: 18%;
+    margin-left: 4%;
+    
+}
+#head{
+    margin-bottom: 7rem;
+    font-family: monospace;
+    font-size: 40px;
+    font-weight: 800;
+    position: sticky;
+}
+.text h1{
+   font-size: 28px;
+   color: white;
+   font-weight: 800px; 
+   margin-bottom: 8px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#he1{
+    margin-bottom: 20px;
+}
+.text h3{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text p{
+    color: white;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main-service{
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+.leftDiv{
+    height: auto;
+    width: 70%;
+}
+
+.leftDiv h1{
+   margin: 1.5rem 2rem;
+   font-weight: 800;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.leftDiv h3{
+    margin: 1.5rem 10rem;
+    font-size: 2rem;
+ }
+.rightDiv{
+    width: 30%;
+    height: auto;
+ 
+}
+.rightDiv img{
+    width: 100%;
+    height: 100%;
+}
+.flxbx{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  
+}
+.lefttext2{
+    height: 100%;
+    width: 40%;
+   
+    margin-left: 3rem;
+}
+.textRight{
+    height: 100%;
+    width: 40%;
+}
+.textContain{
+   margin: 3.9rem;
+}
+.textContain h4{
+    margin-bottom: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+ }
+
+
+
+
+
+.mainContact{
+    background-color: antiquewhite;
+    height: auto;
+    width: 100vw;
+}
+.intermain{
+    display: flex;
+    flex-wrap: wrap; 
+    /* border: 2px solid red; */
+    width: 93%;
+    margin: 0 auto;
+}
+.leftmain img{
+    height: 25rem;
+    width: 20rem;
+}
+
+.rightmain{
+    text-align: center;
+}
+.rightmain h1{
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+.rightmain p{
+    margin-left: 4rem;  
+}
+
+
+footer{
+    height: auto;
+    width: 100vw;
+    margin-top: 2rem;
+    /* border: 2px solid green; */
+}
+.fmargin{
+    width: 93%;
+    margin: 0 auto;
+    /* background-color: yellow; */
+}
+.fmargin h1{
+    margin-left: 40rem;
+    margin-bottom: 2rem;
+}
+.below{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.fleft{
+    height: 100%;
+    width: 40%;
+
+}
+.fleft img{
+    height: 17rem;
+    width: 19rem;
+    border-radius: 150px;
+    margin-bottom: 1.7rem;
+    margin-left: 7rem;
+}
+.fleft p{
+margin-left: 7rem;
+font-size: 20px;
+
+}
+.fright{
+    margin-left: 5rem;
+    width: 40%;
+    /* background-color: blue; */
+
+}
+.fright p{
+ 
+    font-size: 40px;
+    margin-top: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.second-page{
+    width: 85%;
+    margin: auto;
+    object-fit: cover;
+    margin-top: 10px;
+    border-radius: 15px;
+    position: relative;
+    color: white;
+   
+}
+.about img{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 14px;
+}
+.ab-text{
+    position: absolute;
+    top: 4%;
+    margin-left: 3%;
+    
+}
+
+.ab-text h1{  
+   font-size: 40px;
+   margin: 0 auto;
+   text-align: center;
+   margin-bottom: 20px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.ab-text h4{
+   font-size: 20px;
+   /* line-height: 10px; */
+   margin-bottom: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#hey{
+    margin-bottom: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.ab-text ul{
+    font-size: 16px;
+}
+.ab-text ul li{
+    font-size: 20px;
+}
+
+.second2{
+    display: flex;
+    color: white;
+    position: absolute;
+    justify-content: space-around;
+    margin-top: 50px;
+   
+}
+.we{
+    width: 40%;
+    height: 230px;
+    /* border: 1px solid rgb(29, 27, 27); */
+    /* background-color: rgb(47, 47, 197); */
+}
+.we p{
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query */
+/* @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    nav h1{
+        font-size: 12px;
+    }
+} */
+
+
+/* Existing styles above this line */
+
+/* Media query for smartphones */
+@media only screen and (max-width: 767px) {
+    nav {
+        flex-direction: column;
+        /* align-items: center;
+        text-align: center; */
+        height: 10vh;
+    }
+
+    nav h1 {
+        /* margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 10px;
+        font-weight: 100; */
+        display: none;
+    }
+
+    nav ul {
+        flex-direction: column;
+        margin-top: 2px;
+    }
+
+    nav ul li {
+        padding: 2px 0;
+    }
+    .text h1{
+        font-size: 16px;
+        margin-top: 0px;
+    }
+    .text{
+        top: 15%;
+    }
+    .text h3{
+        font-size: 10px;
+        margin-top: 0px;
+    }
+    .text p{
+        font-size: 7px;
+        margin-top: 0px;
+    }
+    .second-page{
+        height: 100vh;
+    }
+    .about img{
+        object-fit: cover;
+        width: 100%;
+        height: 80vh;
+    }
+    .ab-text h1{
+        font-size: 23px;
+        margin-bottom: 10px;
+    }
+    .ab-text h4{
+        font-size: 16px;
+    }
+    #hey{
+        font-size: 15px;
+    }
+    .ab-text ul li{
+        font-size: 10px;
+    }
+    .second2{
+        justify-content: space-evenly;
+        margin-top: 10px;
+    }
+    .we{
+        margin-top: 20px;
+        width: 40%;
+        height: 200px;
+    }
+    .we p{
+        padding: 5px;
+        font-size: 10px;
+    }
+    .main-container2{
+        margin-top: 0px;
+    }
+
+    .main-container2 h1,
+    .main-container2 p,
+    .item2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left2,
+    .right2 {
+        width: 100%;
+    }
+
+    .right2 img {
+        margin-top: 15px;
+    }
+
+    .circle1 h1,
+    .circle1 p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .flex1 .item {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    section h1,
+    .item2 h1,
+    .i-care h1,
+    footer h1 {
+        font-size: 24px;
+    }
+    .i-care2{
+        flex-wrap: wrap;
+    }
+
+    /* Additional adjustments for smaller screens if needed */
+}
+
+/* Existing styles below this line */
